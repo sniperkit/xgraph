@@ -1,0 +1,12 @@
+tags
+doc-api
+config/getdatadir_unix.go
+config/getdatadir_windows.gocmd/cli/cli.exe
+cmd/cli/cli
+cmd/cli/cli.exe
+cmd/cli/config.json
+cmd/cli/config.json.sample
+cmd/web/web
+cmd/web/web.exe
+cmd/web/config.json
+cmd/web/config.json.sample

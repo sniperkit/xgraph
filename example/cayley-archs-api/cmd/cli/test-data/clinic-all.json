@@ -1,0 +1,37 @@
+{
+	"clinicFullName": "Glenecclesia Clinic",
+	"groupName": "Group Arkline",
+	"clinicShortName": "Healthy",
+	"branchName": "Marina Bay",
+	"address1": "12 Marina Boulevard #17-05",
+	"address2": "Marina Bay Financial Centre Tower 3",
+	"addressCity": "Singapore",
+	"addressZipCode": "0189982",
+	"addressCountry": "Singapore",
+	"officeTel": "65 6100 0939",
+	"officeFax": "65 6200 2345",
+	"website": "https://glenecclesia.com",
+	"clinicEmail": "info@glenecclesia.com",
+	"clinicAdminFullName": "Albert Wu",
+	"clinicAdminMobile": "65 3430 6442",
+	"clinicAdminEmail": "albertwu@glenecclesia.com",
+	"clinicAdminPassword": "password123",
+	"clinicAdminConfirmPassword": "password123",
+	"autoBidToggle": true,
+	"priority": true,
+	"maxNbOfPatientsPerHour": 1,
+	"notificationsMobile": "65 6100 0939",
+	"notificationsEmail": "info@glenecclesia.com",
+	"togglePushNotifications": true,
+	"pocFullName": "Albert Wu",
+	"pocMobile": "65 3430 6442",
+	"pocEmail": "albertwu@glenecclesia.com",
+	"hours": [
+		{"day":"mon", "slot":1, "opens": "08:00", "closes": "12:00"},
+		{"day":"mon", "slot":2, "opens": "13:00", "closes": "15:30"},
+		{"day":"mon", "slot":3, "opens": "16:00", "closes": "19:00"},
+		{"day":"tue", "slot":1, "opens": "09:00", "closes": "12:30"},
+		{"day":"tue", "slot":2, "opens": "13:00", "closes": "18:00"}
+	]
+}
+
