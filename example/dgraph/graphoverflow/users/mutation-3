@@ -1,0 +1,9 @@
+mutation {
+  schema {
+    Type: string @index(exact) .
+    Reputation: int @index(int) .
+    Location: string @index(term) .
+    AboutMe: string @index(fulltext) .
+  }
+}
+
