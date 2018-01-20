@@ -1,6 +1,7 @@
 package fact
 
 import (
+	"context"
 	"fmt"
 	"log"
 	"os"
@@ -9,7 +10,7 @@ import (
 
 	"github.com/cayleygraph/cayley"
 	"github.com/cayleygraph/cayley/graph"
-	_ "github.com/cayleygraph/cayley/graph/bolt"
+	_ "github.com/cayleygraph/cayley/graph/kv/bolt"
 	"github.com/cayleygraph/cayley/graph/path"
 	"github.com/cayleygraph/cayley/quad"
 )
@@ -133,7 +134,7 @@ func (f *Fact) all(p *path.Path) []interface{} {
 	out := []interface{}{}
 
 	// Loops pull out.
-	for it.Next() {
+	for it.Next(context.Background()) {
 		token := it.Result()                // Pull the token out (token as reference)
 		value := f.G.NameOf(token)          // Retrieves the value associated with the token.
 		nativeValue := quad.NativeOf(value) // Convert to go

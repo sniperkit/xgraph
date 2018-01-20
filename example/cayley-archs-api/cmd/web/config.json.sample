@@ -1,4 +1,0 @@
-{
-    "WebPort": "3000",
-    "DbPath": "/tmp/db.boltdb"
-}
